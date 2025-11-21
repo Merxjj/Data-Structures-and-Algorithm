@@ -1,234 +1,194 @@
-// 1 add first
-// 2 add last 
-// 3 print all elements
-// get size of a linked list , we can also make a static variable to track size of ll 
-// which is also implemented in this code
-// 4 remove first 
-// this linked list is only for singly linked list
-
 public class LinkedList {
 
+    // 1. addFirst(int data) - adds a node at the beginning of the linked list
+    // 2. addLast(int data) - adds a node at the end of the linked list
+    // 3. add(int index, int data) - adds a node at a specific index
+    // 4. removeFirst() - removes and returns the first node
+    // 5. removeLast() - removes and returns the last node
+    // 6. size() - returns the number of nodes in the linked list
+    // 7. search(int key) - searches for a value iteratively, returns index or -1
+    // 8. reverse() - reverses the linked list
+    // 9. deleteNthFromEnd(int n) - deletes the nth node from the end of the list
+    // 10. printList() - prints all elements of the linked list in order
+    // Node class representing each element
+    private class Node {
+        int data;
+        Node next;
 
-    class Node{
-        int data ;
-        Node next ;
-
-        public Node(int data){
+        Node(int data) {
             this.data = data;
             this.next = null;
         }
     }
 
-    public static Node head;
-    public static Node tail;
-    public static int size ;
-    /*
-      Static variables mean shared across all LinkedList instances. If you make multiple objects of LinkedList, they’ll all point to the same list. This may not be what you want. Use non-static instead unless sharing is intentional.
-     */
+    private Node head;
+    private Node tail;
+    private int size;
 
-
-    public void addFirst(int data){  //1
+    // Add element at the beginning
+    public void addFirst(int data) {
         Node newNode = new Node(data);
-        if(head == null ) {
-
-        head = tail = newNode ;
-        size++;
-        return ;
-        }
-
-        newNode.next = head;
-        head = newNode;
-        size++;
-
-
-    }
-
-    public  void addLast(int data){//2
-        size++;
-
-        Node newNode = new Node(data);
-
-        if(head == null){
+        if (head == null) {
             head = tail = newNode;
-            return ;
+        } else {
+            newNode.next = head;
+            head = newNode;
         }
-        tail.next = newNode;
-        tail = newNode;
-
-
-
-    }
-
-    //3
-    public void printll(){
-        if(head == null){
-            System.out.println("Empty linked List");
-
-        }
-        Node temp = head;
-        while(temp.next !=null){
-            System.out.print(temp.data+"->");
-            temp = temp.next;
-        }
-        System.out.println(temp.data+"->");
-        System.out.println("null");
-    }
-    //4
-    public int size(){
-        Node temp = head;
-        int i= 0;
-        while (temp != null){
-            temp = temp.next;
-            i++;
-        }
-        return i;
-    }
-
-    public void add(int idx, int data){
         size++;
-        if(idx == 0 ){ addFirst(data);
-            return ;}
+    }
+
+    // Add element at the end
+    public void addLast(int data) {
+        Node newNode = new Node(data);
+        if (head == null) {
+            head = tail = newNode;
+        } else {
+            tail.next = newNode;
+            tail = newNode;
+        }
+        size++;
+    }
+
+    // Add element at a specific index
+    public void add(int index, int data) {
+        if (index < 0 || index > size) {
+            throw new IndexOutOfBoundsException("Invalid index");
+        }
+        if (index == 0) {
+            addFirst(data);
+            return;
+        }
+        if (index == size) {
+            addLast(data);
+            return;
+        }
         Node temp = head;
-        int i = 0;
-        while(i<idx-1){
+        for (int i = 0; i < index - 1; i++) {
             temp = temp.next;
-            i++;
         }
         Node newNode = new Node(data);
         newNode.next = temp.next;
         temp.next = newNode;
+        size++;
     }
-//5
-    public int  removefirst(){
-        if(head == null) {
-            return Integer.MIN_VALUE;}
-            int value = head.data;
-            head = head.next;
-            size--;
+
+    // Remove first element
+    public int removeFirst() {
+        if (head == null) throw new RuntimeException("List is empty");
+        int value = head.data;
+        head = head.next;
+        if (head == null) tail = null; // List became empty
+        size--;
         return value;
     }
-//6
-    public int removeLast(){
-        if(head == null) return Integer.MIN_VALUE;
-        if(size == 1){
+
+    // Remove last element
+    public int removeLast() {
+        if (head == null) throw new RuntimeException("List is empty");
+        if (size == 1) {
             int value = head.data;
             head = tail = null;
             size--;
             return value;
         }
         Node temp = head;
-        while(temp.next != tail && temp.next != null){
+        while (temp.next != tail) {
             temp = temp.next;
         }
         int value = tail.data;
         tail = temp;
-        
-        tail.next = null;   
+        tail.next = null;
         size--;
         return value;
     }
 
-    public int itrSearch(int key){
+    // Get size of linked list
+    public int size() {
+        return size;
+    }
+
+    // Search iteratively, returns index or -1
+    public int search(int key) {
         Node temp = head;
-        int i = 0;
-        while(temp.data!=key){
-            if(temp.next == null) return -1;
-            temp= temp.next;
-            i++;
+        int index = 0;
+        while (temp != null) {
+            if (temp.data == key) return index;
+            temp = temp.next;
+            index++;
         }
-        return i;
+        return -1;
     }
 
-    // 7
-    public int recSearch(int key) {
-        return helper(head, key, 0);
-    }
-    
-    private int helper(Node head, int key, int index) {
-        if (head == null) {
-            return -1;
+    // Reverse the linked list
+    public void reverse() {
+        Node prev = null;
+        Node current = head;
+        tail = head; // Update tail
+        while (current != null) {
+            Node next = current.next;
+            current.next = prev;
+            prev = current;
+            current = next;
         }
-        if (head.data == key) {
-            return index;
+        head = prev;
+    }
+
+    // Delete nth node from the end
+    public void deleteNthFromEnd(int n) {
+        if (n <= 0 || n > size) return;
+        if (n == size) {
+            head = head.next;
+            if (head == null) tail = null;
+            size--;
+            return;
         }
-        return helper(head.next, key, index + 1);
-    }
-    
-//8
-    //reverse a linked list
-  public void reverse() {
-    Node prev = null;
-    Node current = tail = head;
-    Node next;
-    while (current != null) {
-        next = current.next;
-        current.next = prev;
-        prev = current;
-        current = next; // Use 'next' to move forward
-    }
-    head = prev;
-}
-
-
-//find and remove nth node from end 
-// size-n+1
-
-public void deleteNode(int n) {
-    if (head == null) {
-        return; // Empty list, nothing to delete
-    }
-
-    if (n > size || n <= 0) {
-        return; // Invalid index
-    }
-
-    // Deleting the head (nth node from end is first node)
-    if (n == size) {
-        head = head.next;
+        Node temp = head;
+        for (int i = 0; i < size - n - 1; i++) {
+            temp = temp.next;
+        }
+        if (temp.next == tail) tail = temp;
+        temp.next = temp.next.next;
         size--;
-        return;
     }
 
-    Node temp = head;
-    Node prev = null;
-    int targetIndex = size - n; // Convert nth from end to 0-based index
-
-    for (int i = 0; i < targetIndex; i++) {
-        prev = temp;
-        temp = temp.next;
+    // Print linked list
+    public void printList() {
+        if (head == null) {
+            System.out.println("Empty List");
+            return;
+        }
+        Node temp = head;
+        while (temp != null) {
+            System.out.print(temp.data + " -> ");
+            temp = temp.next;
+        }
+        System.out.println("null");
     }
 
-    if (prev != null) {
-        prev.next = temp.next;
-    }
-
-    if (temp == tail) {
-        tail = prev;
-    }
-
-    size--;
-}
-
+    // Test the LinkedList
     public static void main(String[] args) {
         LinkedList ll = new LinkedList();
+
         ll.addFirst(1);
         ll.addFirst(2);
-        ll.printll();
-        ll.add(2, 3);
-        ll.printll();
-        System.out.println(ll.size());
-        System.out.println(ll.removefirst());
-        System.out.println(ll.removeLast());
-        System.out.println(ll.itrSearch(1));
+        ll.addLast(3);
+        ll.add(1, 5);
+        ll.printList(); // 2 -> 5 -> 1 -> 3 -> null
+
+        System.out.println("Size: " + ll.size());
+        System.out.println("Removed first: " + ll.removeFirst());
+        System.out.println("Removed last: " + ll.removeLast());
+        ll.printList();
+
         ll.reverse();
-        ll.addFirst(6);
-        ll.addFirst(5);
-        ll.addFirst(4);
-        ll.addFirst(3);
-        ll.addFirst(2);
-        ll.addFirst(1);
-        System.out.println("reversed linked list is : ");
-        ll.printll();
+        System.out.println("Reversed list:");
+        ll.printList();
+
+        ll.deleteNthFromEnd(2);
+        System.out.println("After deleting 2nd node from end:");
+        ll.printList();
+
+        System.out.println("Search 5: " + ll.search(5));
+        System.out.println("Search 100: " + ll.search(100));
     }
-    
 }
