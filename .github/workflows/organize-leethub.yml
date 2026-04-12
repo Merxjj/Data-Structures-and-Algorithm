@@ -1,0 +1,57 @@
+name: Organize LeetHub Submissions
+on:
+  push:
+    branches:
+      - main
+    # Only trigger if changes happen in the root (ignore Daily DSA Question folder itself to avoid loops)
+    paths-ignore:
+      - 'Daily DSA Question/**'
+      - '.github/**'
+
+jobs:
+  organize:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v3
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Move Root LeetCode Files
+        run: |
+          # Create the folder if it doesn't exist
+          mkdir -p "Daily DSA Question"
+          
+          # Find all code files in the root that are NOT part of our system
+          # This looks for folders created by Leethub (which have no extensions)
+          # OR single files like 1.java, two-sum.cpp etc.
+          
+          # We check for directories in root that aren't the main ones
+          for dir in */; do
+            if [[ "$dir" != "Daily DSA Question/" && "$dir" != ".github/" && "$dir" != "Binary Trees/" && "$dir" != "Collection Framework/" && "$dir" != "Stack/" && "$dir" != "linkedlists/" && "$dir" != "a.1/" && "$dir" != "a.2/" ]]; then
+                echo "Moving LeetHub folder: $dir"
+                mv "$dir" "Daily DSA Question/"
+            fi
+          done
+
+          # Also check for loose .java, .py, .cpp files that might be pushed to root
+          # Note: We skip existing xlsx/pdf files
+          find . -maxdepth 1 -name "*.java" -o -name "*.py" -o -name "*.cpp" -o -name "*.c" | while read file; do
+             # Move file to Daily DSA Question/
+             echo "Moving file: $file"
+             mv "$file" "Daily DSA Question/"
+          done
+
+      - name: Commit and Push Changes
+        run: |
+          git config --global user.email "organize-bot@github.com"
+          git config --global user.name "Organize Bot"
+          
+          git add "Daily DSA Question/"
+          
+          if git status | grep -q "Changes to be committed"; then
+            git commit -m "Organize: Move LeetHub submission to Daily DSA Question"
+            git push origin main
+          else
+            echo "Nothing to organize."
+          fi
