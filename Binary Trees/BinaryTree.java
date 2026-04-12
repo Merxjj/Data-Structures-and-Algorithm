@@ -1,1 +1,5 @@
-//   write code from dsa notes
+package Binary Trees;
+
+public class BinaryTree {
+    
+}
