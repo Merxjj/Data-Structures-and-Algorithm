@@ -1,58 +1,55 @@
-name: Organize LeetHub Submissions
+name: DSA Super-Sync (Organize & Mirror)
 on:
   push:
     branches:
       - main
-    # Only trigger if changes happen in the root (ignore Daily DSA Question folder itself to avoid loops)
     paths-ignore:
       - 'Daily DSA Question/**'
       - '.github/**'
-  workflow_dispatch: # Add manual trigger
+  workflow_dispatch:
 
 permissions:
-  contents: write  # Allow the bot to push reorganization changes
+  contents: write
 
 jobs:
-  organize:
+  organize_and_sync:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout Code
+      - name: Checkout Source Repo (Account 1)
         uses: actions/checkout@v3
         with:
+          path: source_repo
           fetch-depth: 0
 
-      - name: Move and Flatten LeetHub Submissions
+      - name: Checkout Target Repo (Account 2)
+        uses: actions/checkout@v3
+        with:
+          repository: merajalamcs27/Meraj-Alam_CS-2341348_IILM-GN
+          token: ${{ secrets.SECONDARY_GITHUB_TOKEN }}
+          path: target_repo
+
+      - name: Organize Root and Flatten Folders
         run: |
-          mkdir -p "Daily DSA Question"
+          mkdir -p "source_repo/Daily DSA Question"
+          cd source_repo
           
-          # Move folders created by Leethub and flatten them
+          # Move and Flatten folders created by Leethub
           for dir in */; do
-            # Trim trailing slash
             foldername=${dir%/}
-            
-            # Skip our protected folders
             if [[ "$foldername" != "Daily DSA Question" && "$foldername" != ".github" && "$foldername" != "Binary Trees" && "$foldername" != "Collection Framework" && "$foldername" != "Stack" && "$foldername" != "linkedlists" && "$foldername" != "a.1" && "$foldername" != "a.2" ]]; then
-                echo "Processing folder: $foldername"
-                
-                # Find the code file inside (java, py, cpp, c)
-                # Note: We ignore README.md
                 codefile=$(find "$foldername" -maxdepth 1 -name "*.java" -o -name "*.py" -o -name "*.cpp" -o -name "*.c" | head -n 1)
-                
                 if [ -n "$codefile" ]; then
                     extension="${codefile##*.}"
                     newfilename="${foldername}.${extension}"
-                    echo "Moving and renaming: $codefile -> Daily DSA Question/$newfilename"
                     mv "$codefile" "Daily DSA Question/$newfilename"
-                    # Clean up the now empty (or README-only) folder
                     rm -rf "$foldername"
                 else
-                    # If it's just a folder with no code (maybe just README), just move it as is
                     mv "$foldername" "Daily DSA Question/"
                 fi
             fi
           done
 
-          # Also move any loose code files already in root
+          # Move loose files from root
           find . -maxdepth 1 -name "*.java" -o -name "*.py" -o -name "*.cpp" -o -name "*.c" | while read file; do
              if [ "$file" != "./" ]; then
                filename=$(basename "$file")
@@ -60,17 +57,28 @@ jobs:
              fi
           done
 
-      - name: Commit and Push Changes
+      - name: Commit Organization to Account 1
         run: |
-          git config --global user.email "organize-bot@github.com"
-          git config --global user.name "Organize Bot"
-          
-          # Stage EVERYTHING (including organized files and deletions of root folders)
+          cd source_repo
+          git config user.email "organize-bot@github.com"
+          git config user.name "Organize Bot"
           git add -A
-          
           if git status | grep -q "Changes to be committed"; then
             git commit -m "Organize: Move LeetHub submission to Daily DSA Question"
             git push origin main
-          else
-            echo "Nothing to organize."
+          fi
+
+      - name: Sync and Streak to Account 2
+        run: |
+          mkdir -p target_repo/DSA
+          cp -rv source_repo/Daily\ DSA\ Question/* target_repo/DSA/
+          
+          cd target_repo
+          git config user.email "meraj.alam.cs27@iilm.edu"
+          git config user.name "Meraj Alam"
+          git add DSA/
+          
+          if git status | grep -q "Changes to be committed"; then
+            git commit -m "Sync DSA question to DSA folder: $(date +'%Y-%m-%d %H:%M:%S')"
+            git push origin main
           fi
