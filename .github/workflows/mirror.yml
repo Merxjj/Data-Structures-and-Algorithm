@@ -5,7 +5,7 @@ on:
       - main
     paths:
       - 'Daily DSA Question/**'
-  workflow_dispatch: # This adds a manual "Run" button
+  workflow_dispatch:
 
 jobs:
   sync_and_streak:
@@ -25,17 +25,20 @@ jobs:
 
       - name: Sync Folders and Set Streak Email
         run: |
-          mkdir -p target_repo/dsa
-          cp -rv source_repo/Daily\ DSA\ Question/* target_repo/dsa/
+          # Ensure we use the existing UPPRCASE 'DSA' folder
+          mkdir -p target_repo/DSA
+          
+          # Copy everything from Daily DSA Question/ to DSA/
+          cp -rv source_repo/Daily\ DSA\ Question/* target_repo/DSA/
           
           cd target_repo
           git config user.email "meraj.alam.cs27@iilm.edu"
           git config user.name "Meraj Alam"
           
-          git add dsa/
+          git add DSA/
           
           if git status | grep -q "Changes to be committed"; then
-            git commit -m "Manual/Auto Sync DSA question: $(date +'%Y-%m-%d %H:%M:%S')"
+            git commit -m "Auto-sync DSA question to DSA folder: $(date +'%Y-%m-%d %H:%M:%S')"
             git push origin main
           else
             echo "No changes to sync."
