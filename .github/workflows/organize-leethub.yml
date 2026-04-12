@@ -8,6 +8,9 @@ on:
       - 'Daily DSA Question/**'
       - '.github/**'
 
+permissions:
+  contents: write  # Allow the bot to push reorganization changes
+
 jobs:
   organize:
     runs-on: ubuntu-latest
@@ -65,6 +68,8 @@ jobs:
           
           if git status | grep -q "Changes to be committed"; then
             git commit -m "Organize: Move LeetHub submission to Daily DSA Question"
+            # Pull with rebase to handle any concurrent pushes (like from mirror bot)
+            git pull --rebase origin main
             git push origin main
           else
             echo "Nothing to organize."
