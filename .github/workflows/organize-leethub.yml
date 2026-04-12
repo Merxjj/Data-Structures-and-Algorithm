@@ -17,29 +17,43 @@ jobs:
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: Move Root LeetCode Files
+      - name: Move and Flatten LeetHub Submissions
         run: |
-          # Create the folder if it doesn't exist
           mkdir -p "Daily DSA Question"
           
-          # Find all code files in the root that are NOT part of our system
-          # This looks for folders created by Leethub (which have no extensions)
-          # OR single files like 1.java, two-sum.cpp etc.
-          
-          # We check for directories in root that aren't the main ones
+          # Move folders created by Leethub and flatten them
           for dir in */; do
-            if [[ "$dir" != "Daily DSA Question/" && "$dir" != ".github/" && "$dir" != "Binary Trees/" && "$dir" != "Collection Framework/" && "$dir" != "Stack/" && "$dir" != "linkedlists/" && "$dir" != "a.1/" && "$dir" != "a.2/" ]]; then
-                echo "Moving LeetHub folder: $dir"
-                mv "$dir" "Daily DSA Question/"
+            # Trim trailing slash
+            foldername=${dir%/}
+            
+            # Skip our protected folders
+            if [[ "$foldername" != "Daily DSA Question" && "$foldername" != ".github" && "$foldername" != "Binary Trees" && "$foldername" != "Collection Framework" && "$foldername" != "Stack" && "$foldername" != "linkedlists" && "$foldername" != "a.1" && "$foldername" != "a.2" ]]; then
+                echo "Processing folder: $foldername"
+                
+                # Find the code file inside (java, py, cpp, c)
+                # Note: We ignore README.md
+                codefile=$(find "$foldername" -maxdepth 1 -name "*.java" -o -name "*.py" -o -name "*.cpp" -o -name "*.c" | head -n 1)
+                
+                if [ -n "$codefile" ]; then
+                    extension="${codefile##*.}"
+                    newfilename="${foldername}.${extension}"
+                    echo "Moving and renaming: $codefile -> Daily DSA Question/$newfilename"
+                    mv "$codefile" "Daily DSA Question/$newfilename"
+                    # Clean up the now empty (or README-only) folder
+                    rm -rf "$foldername"
+                else
+                    # If it's just a folder with no code (maybe just README), just move it as is
+                    mv "$foldername" "Daily DSA Question/"
+                fi
             fi
           done
 
-          # Also check for loose .java, .py, .cpp files that might be pushed to root
-          # Note: We skip existing xlsx/pdf files
+          # Also move any loose code files already in root
           find . -maxdepth 1 -name "*.java" -o -name "*.py" -o -name "*.cpp" -o -name "*.c" | while read file; do
-             # Move file to Daily DSA Question/
-             echo "Moving file: $file"
-             mv "$file" "Daily DSA Question/"
+             if [ "$file" != "./" ]; then
+               filename=$(basename "$file")
+               mv "$file" "Daily DSA Question/$filename"
+             fi
           done
 
       - name: Commit and Push Changes
