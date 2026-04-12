@@ -65,7 +65,8 @@ jobs:
           git config --global user.email "organize-bot@github.com"
           git config --global user.name "Organize Bot"
           
-          git add "Daily DSA Question/"
+          # Stage EVERYTHING (including organized files and deletions of root folders)
+          git add -A
           
           if git status | grep -q "Changes to be committed"; then
             git commit -m "Organize: Move LeetHub submission to Daily DSA Question"
