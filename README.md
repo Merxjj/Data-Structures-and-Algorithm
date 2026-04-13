@@ -17,4 +17,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0112-path-sum](https://github.com/Merxjj/Data-Structures-and-Algorithm/tree/master/0112-path-sum) |
+## Array
+|  |
+| ------- |
+| [1848-minimum-distance-to-the-target-element](https://github.com/Merxjj/Data-Structures-and-Algorithm/tree/master/1848-minimum-distance-to-the-target-element) |
 <!---LeetCode Topics End-->
