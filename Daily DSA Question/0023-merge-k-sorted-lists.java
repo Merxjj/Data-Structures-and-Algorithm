@@ -22,7 +22,7 @@ class Solution {
             ListNode node  = pq.poll();
             curr.next = node;
             curr = curr.next;
-
+            //if the list is haveing more nodes then add it back to pq
             if(node.next!= null)pq.add(node.next);
         }
 
