@@ -39,6 +39,8 @@ jobs:
           cd source_repo
           
           # Move and Flatten folders created by Leethub
+          last_moved=""
+          detected_lang=""
           for dir in */; do
             foldername=${dir%/}
             if [[ "$foldername" != "Daily DSA Question" && "$foldername" != ".github" && "$foldername" != "Binary Trees" && "$foldername" != "Collection Framework" && "$foldername" != "Stack" && "$foldername" != "linkedlists" && "$foldername" != "a.1" && "$foldername" != "a.2" ]]; then
@@ -47,6 +49,8 @@ jobs:
                     extension="${codefile##*.}"
                     newfilename="${foldername}.${extension}"
                     mv "$codefile" "Daily DSA Question/$newfilename"
+                    last_moved="$foldername"
+                    detected_lang="${extension^^}" # Capitalize extension (e.g. JAVA)
                     rm -rf "$foldername"
                 else
                     mv "$foldername" "Daily DSA Question/"
@@ -59,8 +63,15 @@ jobs:
              if [ "$file" != "./" ]; then
                filename=$(basename "$file")
                mv "$file" "Daily DSA Question/$filename"
+               last_moved="${filename%.*}"
+               ext="${filename##*.}"
+               detected_lang="${ext^^}"
              fi
           done
+          
+          # Pass the variables to next steps
+          echo "LAST_PROBLEM=$last_moved" >> $GITHUB_ENV
+          echo "CURRENT_TIME=$(date +'%Y-%m-%d %H:%M')" >> $GITHUB_ENV
 
       - name: Commit Organization to Account 1
         run: |
@@ -69,7 +80,11 @@ jobs:
           git config user.name "Organize Bot"
           git add -A
           if git status | grep -q "Changes to be committed"; then
-            git commit -m "Organize: Move LeetHub submission to Daily DSA Question"
+            if [ -n "${{ env.LAST_PROBLEM }}" ]; then
+               git commit -m "${{ env.LAST_PROBLEM }} | ${{ env.CURRENT_TIME }}"
+            else
+               git commit -m "Organize: ${{ github.event.head_commit.message }}"
+            fi
             git pull --rebase origin main
             git push origin main
           else
@@ -87,10 +102,11 @@ jobs:
           git add DSA/
           
           if git status | grep -q "Changes to be committed"; then
-            original_msg="${{ github.event.head_commit.message }}"
-            # If manually triggered, provide a default message
-            commit_msg="${original_msg:-Sync latest DSA solutions}"
-            git commit -m "$commit_msg"
+            if [ -n "${{ env.LAST_PROBLEM }}" ]; then
+               git commit -m "${{ env.LAST_PROBLEM }} | ${{ env.CURRENT_TIME }}"
+            else
+               git commit -m "${{ github.event.head_commit.message }}"
+            fi
             git pull --rebase origin main
             git push origin main
           else
