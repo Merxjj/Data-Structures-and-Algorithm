@@ -8,6 +8,11 @@ on:
       - '.github/**'
   workflow_dispatch:
 
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+
 permissions:
   contents: write
 
@@ -65,7 +70,10 @@ jobs:
           git add -A
           if git status | grep -q "Changes to be committed"; then
             git commit -m "Organize: Move LeetHub submission to Daily DSA Question"
+            git pull --rebase origin main
             git push origin main
+          else
+            echo "Account 1 is already up to date."
           fi
 
       - name: Sync and Streak to Account 2
@@ -80,5 +88,8 @@ jobs:
           
           if git status | grep -q "Changes to be committed"; then
             git commit -m "Sync DSA question to DSA folder: $(date +'%Y-%m-%d %H:%M:%S')"
+            git pull --rebase origin main
             git push origin main
+          else
+            echo "Account 2 is already up to date."
           fi
