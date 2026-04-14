@@ -87,7 +87,10 @@ jobs:
           git add DSA/
           
           if git status | grep -q "Changes to be committed"; then
-            git commit -m "Sync DSA question to DSA folder: $(date +'%Y-%m-%d %H:%M:%S')"
+            original_msg="${{ github.event.head_commit.message }}"
+            # If manually triggered, provide a default message
+            commit_msg="${original_msg:-Sync latest DSA solutions}"
+            git commit -m "$commit_msg"
             git pull --rebase origin main
             git push origin main
           else
