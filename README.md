@@ -4,6 +4,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Tree
 |  |
 | ------- |
+| [0094-binary-tree-inorder-traversal](https://github.com/Merxjj/Data-Structures-and-Algorithm/tree/master/0094-binary-tree-inorder-traversal) |
 | [0098-validate-binary-search-tree](https://github.com/Merxjj/Data-Structures-and-Algorithm/tree/master/0098-validate-binary-search-tree) |
 | [0111-minimum-depth-of-binary-tree](https://github.com/Merxjj/Data-Structures-and-Algorithm/tree/master/0111-minimum-depth-of-binary-tree) |
 | [0112-path-sum](https://github.com/Merxjj/Data-Structures-and-Algorithm/tree/master/0112-path-sum) |
@@ -15,6 +16,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Depth-First Search
 |  |
 | ------- |
+| [0094-binary-tree-inorder-traversal](https://github.com/Merxjj/Data-Structures-and-Algorithm/tree/master/0094-binary-tree-inorder-traversal) |
 | [0098-validate-binary-search-tree](https://github.com/Merxjj/Data-Structures-and-Algorithm/tree/master/0098-validate-binary-search-tree) |
 | [0111-minimum-depth-of-binary-tree](https://github.com/Merxjj/Data-Structures-and-Algorithm/tree/master/0111-minimum-depth-of-binary-tree) |
 | [0112-path-sum](https://github.com/Merxjj/Data-Structures-and-Algorithm/tree/master/0112-path-sum) |
@@ -30,6 +32,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Binary Tree
 |  |
 | ------- |
+| [0094-binary-tree-inorder-traversal](https://github.com/Merxjj/Data-Structures-and-Algorithm/tree/master/0094-binary-tree-inorder-traversal) |
 | [0098-validate-binary-search-tree](https://github.com/Merxjj/Data-Structures-and-Algorithm/tree/master/0098-validate-binary-search-tree) |
 | [0111-minimum-depth-of-binary-tree](https://github.com/Merxjj/Data-Structures-and-Algorithm/tree/master/0111-minimum-depth-of-binary-tree) |
 | [0112-path-sum](https://github.com/Merxjj/Data-Structures-and-Algorithm/tree/master/0112-path-sum) |
@@ -132,5 +135,6 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Stack
 |  |
 | ------- |
+| [0094-binary-tree-inorder-traversal](https://github.com/Merxjj/Data-Structures-and-Algorithm/tree/master/0094-binary-tree-inorder-traversal) |
 | [0144-binary-tree-preorder-traversal](https://github.com/Merxjj/Data-Structures-and-Algorithm/tree/master/0144-binary-tree-preorder-traversal) |
 <!---LeetCode Topics End-->
