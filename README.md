@@ -105,4 +105,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [3488-closest-equal-element-queries](https://github.com/Merxjj/Data-Structures-and-Algorithm/tree/master/3488-closest-equal-element-queries) |
+## Math
+|  |
+| ------- |
+| [3783-mirror-distance-of-an-integer](https://github.com/Merxjj/Data-Structures-and-Algorithm/tree/master/3783-mirror-distance-of-an-integer) |
 <!---LeetCode Topics End-->
