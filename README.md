@@ -78,6 +78,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2452-words-within-two-edits-of-dictionary](https://github.com/Merxjj/Data-Structures-and-Algorithm/tree/master/2452-words-within-two-edits-of-dictionary) |
 | [2463-minimum-total-distance-traveled](https://github.com/Merxjj/Data-Structures-and-Algorithm/tree/master/2463-minimum-total-distance-traveled) |
 | [2515-shortest-distance-to-target-string-in-a-circular-array](https://github.com/Merxjj/Data-Structures-and-Algorithm/tree/master/2515-shortest-distance-to-target-string-in-a-circular-array) |
+| [2615-sum-of-distances](https://github.com/Merxjj/Data-Structures-and-Algorithm/tree/master/2615-sum-of-distances) |
 | [3488-closest-equal-element-queries](https://github.com/Merxjj/Data-Structures-and-Algorithm/tree/master/3488-closest-equal-element-queries) |
 ## Dynamic Programming
 |  |
@@ -128,6 +129,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0347-top-k-frequent-elements](https://github.com/Merxjj/Data-Structures-and-Algorithm/tree/master/0347-top-k-frequent-elements) |
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/Merxjj/Data-Structures-and-Algorithm/tree/master/0653-two-sum-iv-input-is-a-bst) |
+| [2615-sum-of-distances](https://github.com/Merxjj/Data-Structures-and-Algorithm/tree/master/2615-sum-of-distances) |
 | [3488-closest-equal-element-queries](https://github.com/Merxjj/Data-Structures-and-Algorithm/tree/master/3488-closest-equal-element-queries) |
 ## Bucket Sort
 |  |
@@ -187,4 +189,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0994-rotting-oranges](https://github.com/Merxjj/Data-Structures-and-Algorithm/tree/master/0994-rotting-oranges) |
+## Prefix Sum
+|  |
+| ------- |
+| [2615-sum-of-distances](https://github.com/Merxjj/Data-Structures-and-Algorithm/tree/master/2615-sum-of-distances) |
 <!---LeetCode Topics End-->
