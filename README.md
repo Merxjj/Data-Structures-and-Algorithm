@@ -79,6 +79,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2463-minimum-total-distance-traveled](https://github.com/Merxjj/Data-Structures-and-Algorithm/tree/master/2463-minimum-total-distance-traveled) |
 | [2515-shortest-distance-to-target-string-in-a-circular-array](https://github.com/Merxjj/Data-Structures-and-Algorithm/tree/master/2515-shortest-distance-to-target-string-in-a-circular-array) |
 | [2615-sum-of-distances](https://github.com/Merxjj/Data-Structures-and-Algorithm/tree/master/2615-sum-of-distances) |
+| [3464-maximize-the-distance-between-points-on-a-square](https://github.com/Merxjj/Data-Structures-and-Algorithm/tree/master/3464-maximize-the-distance-between-points-on-a-square) |
 | [3488-closest-equal-element-queries](https://github.com/Merxjj/Data-Structures-and-Algorithm/tree/master/3488-closest-equal-element-queries) |
 ## Dynamic Programming
 |  |
@@ -92,6 +93,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0347-top-k-frequent-elements](https://github.com/Merxjj/Data-Structures-and-Algorithm/tree/master/0347-top-k-frequent-elements) |
 | [0455-assign-cookies](https://github.com/Merxjj/Data-Structures-and-Algorithm/tree/master/0455-assign-cookies) |
 | [2463-minimum-total-distance-traveled](https://github.com/Merxjj/Data-Structures-and-Algorithm/tree/master/2463-minimum-total-distance-traveled) |
+| [3464-maximize-the-distance-between-points-on-a-square](https://github.com/Merxjj/Data-Structures-and-Algorithm/tree/master/3464-maximize-the-distance-between-points-on-a-square) |
 ## Linked List
 |  |
 | ------- |
@@ -155,10 +157,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0222-count-complete-tree-nodes](https://github.com/Merxjj/Data-Structures-and-Algorithm/tree/master/0222-count-complete-tree-nodes) |
 | [1855-maximum-distance-between-a-pair-of-values](https://github.com/Merxjj/Data-Structures-and-Algorithm/tree/master/1855-maximum-distance-between-a-pair-of-values) |
+| [3464-maximize-the-distance-between-points-on-a-square](https://github.com/Merxjj/Data-Structures-and-Algorithm/tree/master/3464-maximize-the-distance-between-points-on-a-square) |
 | [3488-closest-equal-element-queries](https://github.com/Merxjj/Data-Structures-and-Algorithm/tree/master/3488-closest-equal-element-queries) |
 ## Math
 |  |
 | ------- |
+| [3464-maximize-the-distance-between-points-on-a-square](https://github.com/Merxjj/Data-Structures-and-Algorithm/tree/master/3464-maximize-the-distance-between-points-on-a-square) |
 | [3783-mirror-distance-of-an-integer](https://github.com/Merxjj/Data-Structures-and-Algorithm/tree/master/3783-mirror-distance-of-an-integer) |
 ## Binary Search Tree
 |  |
@@ -195,4 +199,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [2615-sum-of-distances](https://github.com/Merxjj/Data-Structures-and-Algorithm/tree/master/2615-sum-of-distances) |
+## Geometry
+|  |
+| ------- |
+| [3464-maximize-the-distance-between-points-on-a-square](https://github.com/Merxjj/Data-Structures-and-Algorithm/tree/master/3464-maximize-the-distance-between-points-on-a-square) |
 <!---LeetCode Topics End-->
