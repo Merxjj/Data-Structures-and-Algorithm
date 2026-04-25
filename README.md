@@ -75,6 +75,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1722-minimize-hamming-distance-after-swap-operations](https://github.com/Merxjj/Data-Structures-and-Algorithm/tree/master/1722-minimize-hamming-distance-after-swap-operations) |
 | [1848-minimum-distance-to-the-target-element](https://github.com/Merxjj/Data-Structures-and-Algorithm/tree/master/1848-minimum-distance-to-the-target-element) |
 | [1855-maximum-distance-between-a-pair-of-values](https://github.com/Merxjj/Data-Structures-and-Algorithm/tree/master/1855-maximum-distance-between-a-pair-of-values) |
+| [2078-two-furthest-houses-with-different-colors](https://github.com/Merxjj/Data-Structures-and-Algorithm/tree/master/2078-two-furthest-houses-with-different-colors) |
 | [2452-words-within-two-edits-of-dictionary](https://github.com/Merxjj/Data-Structures-and-Algorithm/tree/master/2452-words-within-two-edits-of-dictionary) |
 | [2463-minimum-total-distance-traveled](https://github.com/Merxjj/Data-Structures-and-Algorithm/tree/master/2463-minimum-total-distance-traveled) |
 | [2515-shortest-distance-to-target-string-in-a-circular-array](https://github.com/Merxjj/Data-Structures-and-Algorithm/tree/master/2515-shortest-distance-to-target-string-in-a-circular-array) |
@@ -126,6 +127,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0455-assign-cookies](https://github.com/Merxjj/Data-Structures-and-Algorithm/tree/master/0455-assign-cookies) |
 | [0605-can-place-flowers](https://github.com/Merxjj/Data-Structures-and-Algorithm/tree/master/0605-can-place-flowers) |
 | [0860-lemonade-change](https://github.com/Merxjj/Data-Structures-and-Algorithm/tree/master/0860-lemonade-change) |
+| [2078-two-furthest-houses-with-different-colors](https://github.com/Merxjj/Data-Structures-and-Algorithm/tree/master/2078-two-furthest-houses-with-different-colors) |
 ## Hash Table
 |  |
 | ------- |
