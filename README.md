@@ -95,6 +95,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1722-minimize-hamming-distance-after-swap-operations](https://github.com/Merxjj/Data-Structures-and-Algorithm/tree/master/1722-minimize-hamming-distance-after-swap-operations) |
 | [1848-minimum-distance-to-the-target-element](https://github.com/Merxjj/Data-Structures-and-Algorithm/tree/master/1848-minimum-distance-to-the-target-element) |
 | [1855-maximum-distance-between-a-pair-of-values](https://github.com/Merxjj/Data-Structures-and-Algorithm/tree/master/1855-maximum-distance-between-a-pair-of-values) |
+| [2033-minimum-operations-to-make-a-uni-value-grid](https://github.com/Merxjj/Data-Structures-and-Algorithm/tree/master/2033-minimum-operations-to-make-a-uni-value-grid) |
 | [2078-two-furthest-houses-with-different-colors](https://github.com/Merxjj/Data-Structures-and-Algorithm/tree/master/2078-two-furthest-houses-with-different-colors) |
 | [2452-words-within-two-edits-of-dictionary](https://github.com/Merxjj/Data-Structures-and-Algorithm/tree/master/2452-words-within-two-edits-of-dictionary) |
 | [2463-minimum-total-distance-traveled](https://github.com/Merxjj/Data-Structures-and-Algorithm/tree/master/2463-minimum-total-distance-traveled) |
@@ -113,6 +114,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0347-top-k-frequent-elements](https://github.com/Merxjj/Data-Structures-and-Algorithm/tree/master/0347-top-k-frequent-elements) |
 | [0455-assign-cookies](https://github.com/Merxjj/Data-Structures-and-Algorithm/tree/master/0455-assign-cookies) |
+| [2033-minimum-operations-to-make-a-uni-value-grid](https://github.com/Merxjj/Data-Structures-and-Algorithm/tree/master/2033-minimum-operations-to-make-a-uni-value-grid) |
 | [2463-minimum-total-distance-traveled](https://github.com/Merxjj/Data-Structures-and-Algorithm/tree/master/2463-minimum-total-distance-traveled) |
 | [3464-maximize-the-distance-between-points-on-a-square](https://github.com/Merxjj/Data-Structures-and-Algorithm/tree/master/3464-maximize-the-distance-between-points-on-a-square) |
 ## Linked List
@@ -184,6 +186,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Math
 |  |
 | ------- |
+| [2033-minimum-operations-to-make-a-uni-value-grid](https://github.com/Merxjj/Data-Structures-and-Algorithm/tree/master/2033-minimum-operations-to-make-a-uni-value-grid) |
 | [3464-maximize-the-distance-between-points-on-a-square](https://github.com/Merxjj/Data-Structures-and-Algorithm/tree/master/3464-maximize-the-distance-between-points-on-a-square) |
 | [3783-mirror-distance-of-an-integer](https://github.com/Merxjj/Data-Structures-and-Algorithm/tree/master/3783-mirror-distance-of-an-integer) |
 ## Binary Search Tree
@@ -221,6 +224,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0994-rotting-oranges](https://github.com/Merxjj/Data-Structures-and-Algorithm/tree/master/0994-rotting-oranges) |
 | [1391-check-if-there-is-a-valid-path-in-a-grid](https://github.com/Merxjj/Data-Structures-and-Algorithm/tree/master/1391-check-if-there-is-a-valid-path-in-a-grid) |
 | [1559-detect-cycles-in-2d-grid](https://github.com/Merxjj/Data-Structures-and-Algorithm/tree/master/1559-detect-cycles-in-2d-grid) |
+| [2033-minimum-operations-to-make-a-uni-value-grid](https://github.com/Merxjj/Data-Structures-and-Algorithm/tree/master/2033-minimum-operations-to-make-a-uni-value-grid) |
 ## Prefix Sum
 |  |
 | ------- |
