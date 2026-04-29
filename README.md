@@ -101,6 +101,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2463-minimum-total-distance-traveled](https://github.com/Merxjj/Data-Structures-and-Algorithm/tree/master/2463-minimum-total-distance-traveled) |
 | [2515-shortest-distance-to-target-string-in-a-circular-array](https://github.com/Merxjj/Data-Structures-and-Algorithm/tree/master/2515-shortest-distance-to-target-string-in-a-circular-array) |
 | [2615-sum-of-distances](https://github.com/Merxjj/Data-Structures-and-Algorithm/tree/master/2615-sum-of-distances) |
+| [3225-maximum-score-from-grid-operations](https://github.com/Merxjj/Data-Structures-and-Algorithm/tree/master/3225-maximum-score-from-grid-operations) |
 | [3464-maximize-the-distance-between-points-on-a-square](https://github.com/Merxjj/Data-Structures-and-Algorithm/tree/master/3464-maximize-the-distance-between-points-on-a-square) |
 | [3488-closest-equal-element-queries](https://github.com/Merxjj/Data-Structures-and-Algorithm/tree/master/3488-closest-equal-element-queries) |
 ## Dynamic Programming
@@ -109,6 +110,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0053-maximum-subarray](https://github.com/Merxjj/Data-Structures-and-Algorithm/tree/master/0053-maximum-subarray) |
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/Merxjj/Data-Structures-and-Algorithm/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
 | [2463-minimum-total-distance-traveled](https://github.com/Merxjj/Data-Structures-and-Algorithm/tree/master/2463-minimum-total-distance-traveled) |
+| [3225-maximum-score-from-grid-operations](https://github.com/Merxjj/Data-Structures-and-Algorithm/tree/master/3225-maximum-score-from-grid-operations) |
 ## Sorting
 |  |
 | ------- |
@@ -225,10 +227,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1391-check-if-there-is-a-valid-path-in-a-grid](https://github.com/Merxjj/Data-Structures-and-Algorithm/tree/master/1391-check-if-there-is-a-valid-path-in-a-grid) |
 | [1559-detect-cycles-in-2d-grid](https://github.com/Merxjj/Data-Structures-and-Algorithm/tree/master/1559-detect-cycles-in-2d-grid) |
 | [2033-minimum-operations-to-make-a-uni-value-grid](https://github.com/Merxjj/Data-Structures-and-Algorithm/tree/master/2033-minimum-operations-to-make-a-uni-value-grid) |
+| [3225-maximum-score-from-grid-operations](https://github.com/Merxjj/Data-Structures-and-Algorithm/tree/master/3225-maximum-score-from-grid-operations) |
 ## Prefix Sum
 |  |
 | ------- |
 | [2615-sum-of-distances](https://github.com/Merxjj/Data-Structures-and-Algorithm/tree/master/2615-sum-of-distances) |
+| [3225-maximum-score-from-grid-operations](https://github.com/Merxjj/Data-Structures-and-Algorithm/tree/master/3225-maximum-score-from-grid-operations) |
 ## Geometry
 |  |
 | ------- |
