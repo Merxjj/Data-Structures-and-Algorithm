@@ -92,6 +92,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0053-maximum-subarray](https://github.com/Merxjj/Data-Structures-and-Algorithm/tree/master/0053-maximum-subarray) |
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/Merxjj/Data-Structures-and-Algorithm/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
 | [0347-top-k-frequent-elements](https://github.com/Merxjj/Data-Structures-and-Algorithm/tree/master/0347-top-k-frequent-elements) |
+| [0396-rotate-function](https://github.com/Merxjj/Data-Structures-and-Algorithm/tree/master/0396-rotate-function) |
 | [0455-assign-cookies](https://github.com/Merxjj/Data-Structures-and-Algorithm/tree/master/0455-assign-cookies) |
 | [0605-can-place-flowers](https://github.com/Merxjj/Data-Structures-and-Algorithm/tree/master/0605-can-place-flowers) |
 | [0860-lemonade-change](https://github.com/Merxjj/Data-Structures-and-Algorithm/tree/master/0860-lemonade-change) |
@@ -116,6 +117,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0053-maximum-subarray](https://github.com/Merxjj/Data-Structures-and-Algorithm/tree/master/0053-maximum-subarray) |
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/Merxjj/Data-Structures-and-Algorithm/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
+| [0396-rotate-function](https://github.com/Merxjj/Data-Structures-and-Algorithm/tree/master/0396-rotate-function) |
 | [2463-minimum-total-distance-traveled](https://github.com/Merxjj/Data-Structures-and-Algorithm/tree/master/2463-minimum-total-distance-traveled) |
 | [3225-maximum-score-from-grid-operations](https://github.com/Merxjj/Data-Structures-and-Algorithm/tree/master/3225-maximum-score-from-grid-operations) |
 | [3742-maximum-path-score-in-a-grid](https://github.com/Merxjj/Data-Structures-and-Algorithm/tree/master/3742-maximum-path-score-in-a-grid) |
@@ -196,6 +198,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Math
 |  |
 | ------- |
+| [0396-rotate-function](https://github.com/Merxjj/Data-Structures-and-Algorithm/tree/master/0396-rotate-function) |
 | [2033-minimum-operations-to-make-a-uni-value-grid](https://github.com/Merxjj/Data-Structures-and-Algorithm/tree/master/2033-minimum-operations-to-make-a-uni-value-grid) |
 | [3464-maximize-the-distance-between-points-on-a-square](https://github.com/Merxjj/Data-Structures-and-Algorithm/tree/master/3464-maximize-the-distance-between-points-on-a-square) |
 | [3783-mirror-distance-of-an-integer](https://github.com/Merxjj/Data-Structures-and-Algorithm/tree/master/3783-mirror-distance-of-an-integer) |
