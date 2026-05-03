@@ -186,6 +186,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## String
 |  |
 | ------- |
+| [0796-rotate-string](https://github.com/Merxjj/Data-Structures-and-Algorithm/tree/master/0796-rotate-string) |
 | [2452-words-within-two-edits-of-dictionary](https://github.com/Merxjj/Data-Structures-and-Algorithm/tree/master/2452-words-within-two-edits-of-dictionary) |
 | [2515-shortest-distance-to-target-string-in-a-circular-array](https://github.com/Merxjj/Data-Structures-and-Algorithm/tree/master/2515-shortest-distance-to-target-string-in-a-circular-array) |
 | [2833-furthest-point-from-origin](https://github.com/Merxjj/Data-Structures-and-Algorithm/tree/master/2833-furthest-point-from-origin) |
@@ -255,6 +256,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0572-subtree-of-another-tree](https://github.com/Merxjj/Data-Structures-and-Algorithm/tree/master/0572-subtree-of-another-tree) |
+| [0796-rotate-string](https://github.com/Merxjj/Data-Structures-and-Algorithm/tree/master/0796-rotate-string) |
 ## Hash Function
 |  |
 | ------- |
