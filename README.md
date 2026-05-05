@@ -92,6 +92,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0048-rotate-image](https://github.com/Merxjj/Data-Structures-and-Algorithm/tree/master/0048-rotate-image) |
 | [0053-maximum-subarray](https://github.com/Merxjj/Data-Structures-and-Algorithm/tree/master/0053-maximum-subarray) |
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/Merxjj/Data-Structures-and-Algorithm/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
+| [0150-evaluate-reverse-polish-notation](https://github.com/Merxjj/Data-Structures-and-Algorithm/tree/master/0150-evaluate-reverse-polish-notation) |
 | [0347-top-k-frequent-elements](https://github.com/Merxjj/Data-Structures-and-Algorithm/tree/master/0347-top-k-frequent-elements) |
 | [0396-rotate-function](https://github.com/Merxjj/Data-Structures-and-Algorithm/tree/master/0396-rotate-function) |
 | [0455-assign-cookies](https://github.com/Merxjj/Data-Structures-and-Algorithm/tree/master/0455-assign-cookies) |
@@ -204,6 +205,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0048-rotate-image](https://github.com/Merxjj/Data-Structures-and-Algorithm/tree/master/0048-rotate-image) |
+| [0150-evaluate-reverse-polish-notation](https://github.com/Merxjj/Data-Structures-and-Algorithm/tree/master/0150-evaluate-reverse-polish-notation) |
 | [0396-rotate-function](https://github.com/Merxjj/Data-Structures-and-Algorithm/tree/master/0396-rotate-function) |
 | [0788-rotated-digits](https://github.com/Merxjj/Data-Structures-and-Algorithm/tree/master/0788-rotated-digits) |
 | [2033-minimum-operations-to-make-a-uni-value-grid](https://github.com/Merxjj/Data-Structures-and-Algorithm/tree/master/2033-minimum-operations-to-make-a-uni-value-grid) |
@@ -224,6 +226,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0094-binary-tree-inorder-traversal](https://github.com/Merxjj/Data-Structures-and-Algorithm/tree/master/0094-binary-tree-inorder-traversal) |
 | [0144-binary-tree-preorder-traversal](https://github.com/Merxjj/Data-Structures-and-Algorithm/tree/master/0144-binary-tree-preorder-traversal) |
 | [0145-binary-tree-postorder-traversal](https://github.com/Merxjj/Data-Structures-and-Algorithm/tree/master/0145-binary-tree-postorder-traversal) |
+| [0150-evaluate-reverse-polish-notation](https://github.com/Merxjj/Data-Structures-and-Algorithm/tree/master/0150-evaluate-reverse-polish-notation) |
 ## Bit Manipulation
 |  |
 | ------- |
