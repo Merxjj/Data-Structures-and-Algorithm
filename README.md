@@ -95,6 +95,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/Merxjj/Data-Structures-and-Algorithm/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
 | [0150-evaluate-reverse-polish-notation](https://github.com/Merxjj/Data-Structures-and-Algorithm/tree/master/0150-evaluate-reverse-polish-notation) |
 | [0153-find-minimum-in-rotated-sorted-array](https://github.com/Merxjj/Data-Structures-and-Algorithm/tree/master/0153-find-minimum-in-rotated-sorted-array) |
+| [0154-find-minimum-in-rotated-sorted-array-ii](https://github.com/Merxjj/Data-Structures-and-Algorithm/tree/master/0154-find-minimum-in-rotated-sorted-array-ii) |
 | [0347-top-k-frequent-elements](https://github.com/Merxjj/Data-Structures-and-Algorithm/tree/master/0347-top-k-frequent-elements) |
 | [0396-rotate-function](https://github.com/Merxjj/Data-Structures-and-Algorithm/tree/master/0396-rotate-function) |
 | [0455-assign-cookies](https://github.com/Merxjj/Data-Structures-and-Algorithm/tree/master/0455-assign-cookies) |
@@ -213,6 +214,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0153-find-minimum-in-rotated-sorted-array](https://github.com/Merxjj/Data-Structures-and-Algorithm/tree/master/0153-find-minimum-in-rotated-sorted-array) |
+| [0154-find-minimum-in-rotated-sorted-array-ii](https://github.com/Merxjj/Data-Structures-and-Algorithm/tree/master/0154-find-minimum-in-rotated-sorted-array-ii) |
 | [0222-count-complete-tree-nodes](https://github.com/Merxjj/Data-Structures-and-Algorithm/tree/master/0222-count-complete-tree-nodes) |
 | [1855-maximum-distance-between-a-pair-of-values](https://github.com/Merxjj/Data-Structures-and-Algorithm/tree/master/1855-maximum-distance-between-a-pair-of-values) |
 | [3464-maximize-the-distance-between-points-on-a-square](https://github.com/Merxjj/Data-Structures-and-Algorithm/tree/master/3464-maximize-the-distance-between-points-on-a-square) |
