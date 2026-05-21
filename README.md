@@ -124,6 +124,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2615-sum-of-distances](https://github.com/Merxjj/Data-Structures-and-Algorithm/tree/master/2615-sum-of-distances) |
 | [2770-maximum-number-of-jumps-to-reach-the-last-index](https://github.com/Merxjj/Data-Structures-and-Algorithm/tree/master/2770-maximum-number-of-jumps-to-reach-the-last-index) |
 | [2784-check-if-array-is-good](https://github.com/Merxjj/Data-Structures-and-Algorithm/tree/master/2784-check-if-array-is-good) |
+| [3043-find-the-length-of-the-longest-common-prefix](https://github.com/Merxjj/Data-Structures-and-Algorithm/tree/master/3043-find-the-length-of-the-longest-common-prefix) |
 | [3225-maximum-score-from-grid-operations](https://github.com/Merxjj/Data-Structures-and-Algorithm/tree/master/3225-maximum-score-from-grid-operations) |
 | [3464-maximize-the-distance-between-points-on-a-square](https://github.com/Merxjj/Data-Structures-and-Algorithm/tree/master/3464-maximize-the-distance-between-points-on-a-square) |
 | [3488-closest-equal-element-queries](https://github.com/Merxjj/Data-Structures-and-Algorithm/tree/master/3488-closest-equal-element-queries) |
@@ -197,6 +198,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2540-minimum-common-value](https://github.com/Merxjj/Data-Structures-and-Algorithm/tree/master/2540-minimum-common-value) |
 | [2615-sum-of-distances](https://github.com/Merxjj/Data-Structures-and-Algorithm/tree/master/2615-sum-of-distances) |
 | [2784-check-if-array-is-good](https://github.com/Merxjj/Data-Structures-and-Algorithm/tree/master/2784-check-if-array-is-good) |
+| [3043-find-the-length-of-the-longest-common-prefix](https://github.com/Merxjj/Data-Structures-and-Algorithm/tree/master/3043-find-the-length-of-the-longest-common-prefix) |
 | [3488-closest-equal-element-queries](https://github.com/Merxjj/Data-Structures-and-Algorithm/tree/master/3488-closest-equal-element-queries) |
 | [3629-minimum-jumps-to-reach-end-via-prime-teleportation](https://github.com/Merxjj/Data-Structures-and-Algorithm/tree/master/3629-minimum-jumps-to-reach-end-via-prime-teleportation) |
 ## Bucket Sort
@@ -219,6 +221,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2452-words-within-two-edits-of-dictionary](https://github.com/Merxjj/Data-Structures-and-Algorithm/tree/master/2452-words-within-two-edits-of-dictionary) |
 | [2515-shortest-distance-to-target-string-in-a-circular-array](https://github.com/Merxjj/Data-Structures-and-Algorithm/tree/master/2515-shortest-distance-to-target-string-in-a-circular-array) |
 | [2833-furthest-point-from-origin](https://github.com/Merxjj/Data-Structures-and-Algorithm/tree/master/2833-furthest-point-from-origin) |
+| [3043-find-the-length-of-the-longest-common-prefix](https://github.com/Merxjj/Data-Structures-and-Algorithm/tree/master/3043-find-the-length-of-the-longest-common-prefix) |
 ## Binary Search
 |  |
 | ------- |
@@ -270,6 +273,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [2452-words-within-two-edits-of-dictionary](https://github.com/Merxjj/Data-Structures-and-Algorithm/tree/master/2452-words-within-two-edits-of-dictionary) |
+| [3043-find-the-length-of-the-longest-common-prefix](https://github.com/Merxjj/Data-Structures-and-Algorithm/tree/master/3043-find-the-length-of-the-longest-common-prefix) |
 ## Matrix
 |  |
 | ------- |
