@@ -106,6 +106,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0605-can-place-flowers](https://github.com/Merxjj/Data-Structures-and-Algorithm/tree/master/0605-can-place-flowers) |
 | [0860-lemonade-change](https://github.com/Merxjj/Data-Structures-and-Algorithm/tree/master/0860-lemonade-change) |
 | [0994-rotting-oranges](https://github.com/Merxjj/Data-Structures-and-Algorithm/tree/master/0994-rotting-oranges) |
+| [1248-count-number-of-nice-subarrays](https://github.com/Merxjj/Data-Structures-and-Algorithm/tree/master/1248-count-number-of-nice-subarrays) |
 | [1306-jump-game-iii](https://github.com/Merxjj/Data-Structures-and-Algorithm/tree/master/1306-jump-game-iii) |
 | [1345-jump-game-iv](https://github.com/Merxjj/Data-Structures-and-Algorithm/tree/master/1345-jump-game-iv) |
 | [1391-check-if-there-is-a-valid-path-in-a-grid](https://github.com/Merxjj/Data-Structures-and-Algorithm/tree/master/1391-check-if-there-is-a-valid-path-in-a-grid) |
@@ -196,6 +197,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0347-top-k-frequent-elements](https://github.com/Merxjj/Data-Structures-and-Algorithm/tree/master/0347-top-k-frequent-elements) |
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/Merxjj/Data-Structures-and-Algorithm/tree/master/0653-two-sum-iv-input-is-a-bst) |
+| [1248-count-number-of-nice-subarrays](https://github.com/Merxjj/Data-Structures-and-Algorithm/tree/master/1248-count-number-of-nice-subarrays) |
 | [1345-jump-game-iv](https://github.com/Merxjj/Data-Structures-and-Algorithm/tree/master/1345-jump-game-iv) |
 | [1674-minimum-moves-to-make-array-complementary](https://github.com/Merxjj/Data-Structures-and-Algorithm/tree/master/1674-minimum-moves-to-make-array-complementary) |
 | [2540-minimum-common-value](https://github.com/Merxjj/Data-Structures-and-Algorithm/tree/master/2540-minimum-common-value) |
@@ -243,6 +245,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0150-evaluate-reverse-polish-notation](https://github.com/Merxjj/Data-Structures-and-Algorithm/tree/master/0150-evaluate-reverse-polish-notation) |
 | [0396-rotate-function](https://github.com/Merxjj/Data-Structures-and-Algorithm/tree/master/0396-rotate-function) |
 | [0788-rotated-digits](https://github.com/Merxjj/Data-Structures-and-Algorithm/tree/master/0788-rotated-digits) |
+| [1248-count-number-of-nice-subarrays](https://github.com/Merxjj/Data-Structures-and-Algorithm/tree/master/1248-count-number-of-nice-subarrays) |
 | [2033-minimum-operations-to-make-a-uni-value-grid](https://github.com/Merxjj/Data-Structures-and-Algorithm/tree/master/2033-minimum-operations-to-make-a-uni-value-grid) |
 | [3464-maximize-the-distance-between-points-on-a-square](https://github.com/Merxjj/Data-Structures-and-Algorithm/tree/master/3464-maximize-the-distance-between-points-on-a-square) |
 | [3629-minimum-jumps-to-reach-end-via-prime-teleportation](https://github.com/Merxjj/Data-Structures-and-Algorithm/tree/master/3629-minimum-jumps-to-reach-end-via-prime-teleportation) |
@@ -294,6 +297,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Prefix Sum
 |  |
 | ------- |
+| [1248-count-number-of-nice-subarrays](https://github.com/Merxjj/Data-Structures-and-Algorithm/tree/master/1248-count-number-of-nice-subarrays) |
 | [1674-minimum-moves-to-make-array-complementary](https://github.com/Merxjj/Data-Structures-and-Algorithm/tree/master/1674-minimum-moves-to-make-array-complementary) |
 | [2615-sum-of-distances](https://github.com/Merxjj/Data-Structures-and-Algorithm/tree/master/2615-sum-of-distances) |
 | [3225-maximum-score-from-grid-operations](https://github.com/Merxjj/Data-Structures-and-Algorithm/tree/master/3225-maximum-score-from-grid-operations) |
@@ -319,4 +323,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [1914-cyclically-rotating-a-grid](https://github.com/Merxjj/Data-Structures-and-Algorithm/tree/master/1914-cyclically-rotating-a-grid) |
 | [2553-separate-the-digits-in-an-array](https://github.com/Merxjj/Data-Structures-and-Algorithm/tree/master/2553-separate-the-digits-in-an-array) |
+## Sliding Window
+|  |
+| ------- |
+| [1248-count-number-of-nice-subarrays](https://github.com/Merxjj/Data-Structures-and-Algorithm/tree/master/1248-count-number-of-nice-subarrays) |
 <!---LeetCode Topics End-->
