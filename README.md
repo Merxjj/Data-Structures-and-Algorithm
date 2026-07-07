@@ -249,6 +249,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2033-minimum-operations-to-make-a-uni-value-grid](https://github.com/Merxjj/Data-Structures-and-Algorithm/tree/master/2033-minimum-operations-to-make-a-uni-value-grid) |
 | [3464-maximize-the-distance-between-points-on-a-square](https://github.com/Merxjj/Data-Structures-and-Algorithm/tree/master/3464-maximize-the-distance-between-points-on-a-square) |
 | [3629-minimum-jumps-to-reach-end-via-prime-teleportation](https://github.com/Merxjj/Data-Structures-and-Algorithm/tree/master/3629-minimum-jumps-to-reach-end-via-prime-teleportation) |
+| [3754-concatenate-non-zero-digits-and-multiply-by-sum-i](https://github.com/Merxjj/Data-Structures-and-Algorithm/tree/master/3754-concatenate-non-zero-digits-and-multiply-by-sum-i) |
 | [3783-mirror-distance-of-an-integer](https://github.com/Merxjj/Data-Structures-and-Algorithm/tree/master/3783-mirror-distance-of-an-integer) |
 ## Binary Search Tree
 |  |
