@@ -108,6 +108,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0724-find-pivot-index](https://github.com/Merxjj/Data-Structures-and-Algorithm/tree/master/0724-find-pivot-index) |
 | [0860-lemonade-change](https://github.com/Merxjj/Data-Structures-and-Algorithm/tree/master/0860-lemonade-change) |
 | [0994-rotting-oranges](https://github.com/Merxjj/Data-Structures-and-Algorithm/tree/master/0994-rotting-oranges) |
+| [1004-max-consecutive-ones-iii](https://github.com/Merxjj/Data-Structures-and-Algorithm/tree/master/1004-max-consecutive-ones-iii) |
 | [1248-count-number-of-nice-subarrays](https://github.com/Merxjj/Data-Structures-and-Algorithm/tree/master/1248-count-number-of-nice-subarrays) |
 | [1306-jump-game-iii](https://github.com/Merxjj/Data-Structures-and-Algorithm/tree/master/1306-jump-game-iii) |
 | [1345-jump-game-iv](https://github.com/Merxjj/Data-Structures-and-Algorithm/tree/master/1345-jump-game-iv) |
@@ -238,6 +239,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0153-find-minimum-in-rotated-sorted-array](https://github.com/Merxjj/Data-Structures-and-Algorithm/tree/master/0153-find-minimum-in-rotated-sorted-array) |
 | [0154-find-minimum-in-rotated-sorted-array-ii](https://github.com/Merxjj/Data-Structures-and-Algorithm/tree/master/0154-find-minimum-in-rotated-sorted-array-ii) |
 | [0222-count-complete-tree-nodes](https://github.com/Merxjj/Data-Structures-and-Algorithm/tree/master/0222-count-complete-tree-nodes) |
+| [1004-max-consecutive-ones-iii](https://github.com/Merxjj/Data-Structures-and-Algorithm/tree/master/1004-max-consecutive-ones-iii) |
 | [1855-maximum-distance-between-a-pair-of-values](https://github.com/Merxjj/Data-Structures-and-Algorithm/tree/master/1855-maximum-distance-between-a-pair-of-values) |
 | [2540-minimum-common-value](https://github.com/Merxjj/Data-Structures-and-Algorithm/tree/master/2540-minimum-common-value) |
 | [2812-find-the-safest-path-in-a-grid](https://github.com/Merxjj/Data-Structures-and-Algorithm/tree/master/2812-find-the-safest-path-in-a-grid) |
@@ -305,6 +307,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0724-find-pivot-index](https://github.com/Merxjj/Data-Structures-and-Algorithm/tree/master/0724-find-pivot-index) |
+| [1004-max-consecutive-ones-iii](https://github.com/Merxjj/Data-Structures-and-Algorithm/tree/master/1004-max-consecutive-ones-iii) |
 | [1248-count-number-of-nice-subarrays](https://github.com/Merxjj/Data-Structures-and-Algorithm/tree/master/1248-count-number-of-nice-subarrays) |
 | [1674-minimum-moves-to-make-array-complementary](https://github.com/Merxjj/Data-Structures-and-Algorithm/tree/master/1674-minimum-moves-to-make-array-complementary) |
 | [1732-find-the-highest-altitude](https://github.com/Merxjj/Data-Structures-and-Algorithm/tree/master/1732-find-the-highest-altitude) |
@@ -337,6 +340,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0643-maximum-average-subarray-i](https://github.com/Merxjj/Data-Structures-and-Algorithm/tree/master/0643-maximum-average-subarray-i) |
+| [1004-max-consecutive-ones-iii](https://github.com/Merxjj/Data-Structures-and-Algorithm/tree/master/1004-max-consecutive-ones-iii) |
 | [1248-count-number-of-nice-subarrays](https://github.com/Merxjj/Data-Structures-and-Algorithm/tree/master/1248-count-number-of-nice-subarrays) |
 | [1456-maximum-number-of-vowels-in-a-substring-of-given-length](https://github.com/Merxjj/Data-Structures-and-Algorithm/tree/master/1456-maximum-number-of-vowels-in-a-substring-of-given-length) |
 <!---LeetCode Topics End-->
