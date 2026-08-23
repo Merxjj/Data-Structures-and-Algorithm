@@ -104,6 +104,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0396-rotate-function](https://github.com/Merxjj/Data-Structures-and-Algorithm/tree/master/0396-rotate-function) |
 | [0455-assign-cookies](https://github.com/Merxjj/Data-Structures-and-Algorithm/tree/master/0455-assign-cookies) |
 | [0605-can-place-flowers](https://github.com/Merxjj/Data-Structures-and-Algorithm/tree/master/0605-can-place-flowers) |
+| [0643-maximum-average-subarray-i](https://github.com/Merxjj/Data-Structures-and-Algorithm/tree/master/0643-maximum-average-subarray-i) |
 | [0860-lemonade-change](https://github.com/Merxjj/Data-Structures-and-Algorithm/tree/master/0860-lemonade-change) |
 | [0994-rotting-oranges](https://github.com/Merxjj/Data-Structures-and-Algorithm/tree/master/0994-rotting-oranges) |
 | [1248-count-number-of-nice-subarrays](https://github.com/Merxjj/Data-Structures-and-Algorithm/tree/master/1248-count-number-of-nice-subarrays) |
@@ -330,5 +331,6 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Sliding Window
 |  |
 | ------- |
+| [0643-maximum-average-subarray-i](https://github.com/Merxjj/Data-Structures-and-Algorithm/tree/master/0643-maximum-average-subarray-i) |
 | [1248-count-number-of-nice-subarrays](https://github.com/Merxjj/Data-Structures-and-Algorithm/tree/master/1248-count-number-of-nice-subarrays) |
 <!---LeetCode Topics End-->
