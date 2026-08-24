@@ -106,6 +106,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0605-can-place-flowers](https://github.com/Merxjj/Data-Structures-and-Algorithm/tree/master/0605-can-place-flowers) |
 | [0643-maximum-average-subarray-i](https://github.com/Merxjj/Data-Structures-and-Algorithm/tree/master/0643-maximum-average-subarray-i) |
 | [0724-find-pivot-index](https://github.com/Merxjj/Data-Structures-and-Algorithm/tree/master/0724-find-pivot-index) |
+| [0735-asteroid-collision](https://github.com/Merxjj/Data-Structures-and-Algorithm/tree/master/0735-asteroid-collision) |
 | [0860-lemonade-change](https://github.com/Merxjj/Data-Structures-and-Algorithm/tree/master/0860-lemonade-change) |
 | [0994-rotting-oranges](https://github.com/Merxjj/Data-Structures-and-Algorithm/tree/master/0994-rotting-oranges) |
 | [1004-max-consecutive-ones-iii](https://github.com/Merxjj/Data-Structures-and-Algorithm/tree/master/1004-max-consecutive-ones-iii) |
@@ -291,6 +292,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0144-binary-tree-preorder-traversal](https://github.com/Merxjj/Data-Structures-and-Algorithm/tree/master/0144-binary-tree-preorder-traversal) |
 | [0145-binary-tree-postorder-traversal](https://github.com/Merxjj/Data-Structures-and-Algorithm/tree/master/0145-binary-tree-postorder-traversal) |
 | [0150-evaluate-reverse-polish-notation](https://github.com/Merxjj/Data-Structures-and-Algorithm/tree/master/0150-evaluate-reverse-polish-notation) |
+| [0735-asteroid-collision](https://github.com/Merxjj/Data-Structures-and-Algorithm/tree/master/0735-asteroid-collision) |
 | [2390-removing-stars-from-a-string](https://github.com/Merxjj/Data-Structures-and-Algorithm/tree/master/2390-removing-stars-from-a-string) |
 ## Bit Manipulation
 |  |
@@ -352,6 +354,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Simulation
 |  |
 | ------- |
+| [0735-asteroid-collision](https://github.com/Merxjj/Data-Structures-and-Algorithm/tree/master/0735-asteroid-collision) |
 | [1914-cyclically-rotating-a-grid](https://github.com/Merxjj/Data-Structures-and-Algorithm/tree/master/1914-cyclically-rotating-a-grid) |
 | [2352-equal-row-and-column-pairs](https://github.com/Merxjj/Data-Structures-and-Algorithm/tree/master/2352-equal-row-and-column-pairs) |
 | [2390-removing-stars-from-a-string](https://github.com/Merxjj/Data-Structures-and-Algorithm/tree/master/2390-removing-stars-from-a-string) |
