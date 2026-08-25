@@ -173,6 +173,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0023-merge-k-sorted-lists](https://github.com/Merxjj/Data-Structures-and-Algorithm/tree/master/0023-merge-k-sorted-lists) |
 | [0061-rotate-list](https://github.com/Merxjj/Data-Structures-and-Algorithm/tree/master/0061-rotate-list) |
+| [0206-reverse-linked-list](https://github.com/Merxjj/Data-Structures-and-Algorithm/tree/master/0206-reverse-linked-list) |
 | [0328-odd-even-linked-list](https://github.com/Merxjj/Data-Structures-and-Algorithm/tree/master/0328-odd-even-linked-list) |
 | [2095-delete-the-middle-node-of-a-linked-list](https://github.com/Merxjj/Data-Structures-and-Algorithm/tree/master/2095-delete-the-middle-node-of-a-linked-list) |
 ## Divide and Conquer
@@ -376,4 +377,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0334-increasing-triplet-subsequence](https://github.com/Merxjj/Data-Structures-and-Algorithm/tree/master/0334-increasing-triplet-subsequence) |
+## Recursion
+|  |
+| ------- |
+| [0206-reverse-linked-list](https://github.com/Merxjj/Data-Structures-and-Algorithm/tree/master/0206-reverse-linked-list) |
 <!---LeetCode Topics End-->
