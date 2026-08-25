@@ -176,6 +176,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0206-reverse-linked-list](https://github.com/Merxjj/Data-Structures-and-Algorithm/tree/master/0206-reverse-linked-list) |
 | [0328-odd-even-linked-list](https://github.com/Merxjj/Data-Structures-and-Algorithm/tree/master/0328-odd-even-linked-list) |
 | [2095-delete-the-middle-node-of-a-linked-list](https://github.com/Merxjj/Data-Structures-and-Algorithm/tree/master/2095-delete-the-middle-node-of-a-linked-list) |
+| [2130-maximum-twin-sum-of-a-linked-list](https://github.com/Merxjj/Data-Structures-and-Algorithm/tree/master/2130-maximum-twin-sum-of-a-linked-list) |
 ## Divide and Conquer
 |  |
 | ------- |
@@ -201,6 +202,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/Merxjj/Data-Structures-and-Algorithm/tree/master/0653-two-sum-iv-input-is-a-bst) |
 | [1855-maximum-distance-between-a-pair-of-values](https://github.com/Merxjj/Data-Structures-and-Algorithm/tree/master/1855-maximum-distance-between-a-pair-of-values) |
 | [2095-delete-the-middle-node-of-a-linked-list](https://github.com/Merxjj/Data-Structures-and-Algorithm/tree/master/2095-delete-the-middle-node-of-a-linked-list) |
+| [2130-maximum-twin-sum-of-a-linked-list](https://github.com/Merxjj/Data-Structures-and-Algorithm/tree/master/2130-maximum-twin-sum-of-a-linked-list) |
 | [2540-minimum-common-value](https://github.com/Merxjj/Data-Structures-and-Algorithm/tree/master/2540-minimum-common-value) |
 ## Greedy
 |  |
@@ -299,6 +301,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0145-binary-tree-postorder-traversal](https://github.com/Merxjj/Data-Structures-and-Algorithm/tree/master/0145-binary-tree-postorder-traversal) |
 | [0150-evaluate-reverse-polish-notation](https://github.com/Merxjj/Data-Structures-and-Algorithm/tree/master/0150-evaluate-reverse-polish-notation) |
 | [0735-asteroid-collision](https://github.com/Merxjj/Data-Structures-and-Algorithm/tree/master/0735-asteroid-collision) |
+| [2130-maximum-twin-sum-of-a-linked-list](https://github.com/Merxjj/Data-Structures-and-Algorithm/tree/master/2130-maximum-twin-sum-of-a-linked-list) |
 | [2390-removing-stars-from-a-string](https://github.com/Merxjj/Data-Structures-and-Algorithm/tree/master/2390-removing-stars-from-a-string) |
 ## Bit Manipulation
 |  |
