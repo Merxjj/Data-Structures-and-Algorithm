@@ -1,4 +1,4 @@
-class Solution {
+class Solution {// with using extra space
     public boolean rotateString(String s, String goal) {
         if(s.length()!=goal.length())return false;
         String s1 = s+s;
