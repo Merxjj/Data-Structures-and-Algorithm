@@ -112,6 +112,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0334-increasing-triplet-subsequence](https://github.com/Merxjj/Data-Structures-and-Algorithm/tree/master/0334-increasing-triplet-subsequence) |
 | [0347-top-k-frequent-elements](https://github.com/Merxjj/Data-Structures-and-Algorithm/tree/master/0347-top-k-frequent-elements) |
 | [0396-rotate-function](https://github.com/Merxjj/Data-Structures-and-Algorithm/tree/master/0396-rotate-function) |
+| [0416-partition-equal-subset-sum](https://github.com/Merxjj/Data-Structures-and-Algorithm/tree/master/0416-partition-equal-subset-sum) |
 | [0455-assign-cookies](https://github.com/Merxjj/Data-Structures-and-Algorithm/tree/master/0455-assign-cookies) |
 | [0605-can-place-flowers](https://github.com/Merxjj/Data-Structures-and-Algorithm/tree/master/0605-can-place-flowers) |
 | [0643-maximum-average-subarray-i](https://github.com/Merxjj/Data-Structures-and-Algorithm/tree/master/0643-maximum-average-subarray-i) |
@@ -161,6 +162,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0198-house-robber](https://github.com/Merxjj/Data-Structures-and-Algorithm/tree/master/0198-house-robber) |
 | [0392-is-subsequence](https://github.com/Merxjj/Data-Structures-and-Algorithm/tree/master/0392-is-subsequence) |
 | [0396-rotate-function](https://github.com/Merxjj/Data-Structures-and-Algorithm/tree/master/0396-rotate-function) |
+| [0416-partition-equal-subset-sum](https://github.com/Merxjj/Data-Structures-and-Algorithm/tree/master/0416-partition-equal-subset-sum) |
 | [0516-longest-palindromic-subsequence](https://github.com/Merxjj/Data-Structures-and-Algorithm/tree/master/0516-longest-palindromic-subsequence) |
 | [0788-rotated-digits](https://github.com/Merxjj/Data-Structures-and-Algorithm/tree/master/0788-rotated-digits) |
 | [1493-longest-subarray-of-1s-after-deleting-one-element](https://github.com/Merxjj/Data-Structures-and-Algorithm/tree/master/1493-longest-subarray-of-1s-after-deleting-one-element) |
@@ -410,4 +412,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0374-guess-number-higher-or-lower](https://github.com/Merxjj/Data-Structures-and-Algorithm/tree/master/0374-guess-number-higher-or-lower) |
+## Knapsack Problem
+|  |
+| ------- |
+| [0416-partition-equal-subset-sum](https://github.com/Merxjj/Data-Structures-and-Algorithm/tree/master/0416-partition-equal-subset-sum) |
+## 0-1 Knapsack
+|  |
+| ------- |
+| [0416-partition-equal-subset-sum](https://github.com/Merxjj/Data-Structures-and-Algorithm/tree/master/0416-partition-equal-subset-sum) |
 <!---LeetCode Topics End-->
