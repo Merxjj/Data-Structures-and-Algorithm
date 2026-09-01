@@ -26,6 +26,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0700-search-in-a-binary-search-tree](https://github.com/Merxjj/Data-Structures-and-Algorithm/tree/master/0700-search-in-a-binary-search-tree) |
 | [0701-insert-into-a-binary-search-tree](https://github.com/Merxjj/Data-Structures-and-Algorithm/tree/master/0701-insert-into-a-binary-search-tree) |
 | [0872-leaf-similar-trees](https://github.com/Merxjj/Data-Structures-and-Algorithm/tree/master/0872-leaf-similar-trees) |
+| [1161-maximum-level-sum-of-a-binary-tree](https://github.com/Merxjj/Data-Structures-and-Algorithm/tree/master/1161-maximum-level-sum-of-a-binary-tree) |
 | [1448-count-good-nodes-in-binary-tree](https://github.com/Merxjj/Data-Structures-and-Algorithm/tree/master/1448-count-good-nodes-in-binary-tree) |
 ## Depth-First Search
 |  |
@@ -48,6 +49,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/Merxjj/Data-Structures-and-Algorithm/tree/master/0653-two-sum-iv-input-is-a-bst) |
 | [0662-maximum-width-of-binary-tree](https://github.com/Merxjj/Data-Structures-and-Algorithm/tree/master/0662-maximum-width-of-binary-tree) |
 | [0872-leaf-similar-trees](https://github.com/Merxjj/Data-Structures-and-Algorithm/tree/master/0872-leaf-similar-trees) |
+| [1161-maximum-level-sum-of-a-binary-tree](https://github.com/Merxjj/Data-Structures-and-Algorithm/tree/master/1161-maximum-level-sum-of-a-binary-tree) |
 | [1306-jump-game-iii](https://github.com/Merxjj/Data-Structures-and-Algorithm/tree/master/1306-jump-game-iii) |
 | [1391-check-if-there-is-a-valid-path-in-a-grid](https://github.com/Merxjj/Data-Structures-and-Algorithm/tree/master/1391-check-if-there-is-a-valid-path-in-a-grid) |
 | [1448-count-good-nodes-in-binary-tree](https://github.com/Merxjj/Data-Structures-and-Algorithm/tree/master/1448-count-good-nodes-in-binary-tree) |
@@ -65,6 +67,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/Merxjj/Data-Structures-and-Algorithm/tree/master/0653-two-sum-iv-input-is-a-bst) |
 | [0662-maximum-width-of-binary-tree](https://github.com/Merxjj/Data-Structures-and-Algorithm/tree/master/0662-maximum-width-of-binary-tree) |
 | [0994-rotting-oranges](https://github.com/Merxjj/Data-Structures-and-Algorithm/tree/master/0994-rotting-oranges) |
+| [1161-maximum-level-sum-of-a-binary-tree](https://github.com/Merxjj/Data-Structures-and-Algorithm/tree/master/1161-maximum-level-sum-of-a-binary-tree) |
 | [1306-jump-game-iii](https://github.com/Merxjj/Data-Structures-and-Algorithm/tree/master/1306-jump-game-iii) |
 | [1345-jump-game-iv](https://github.com/Merxjj/Data-Structures-and-Algorithm/tree/master/1345-jump-game-iv) |
 | [1391-check-if-there-is-a-valid-path-in-a-grid](https://github.com/Merxjj/Data-Structures-and-Algorithm/tree/master/1391-check-if-there-is-a-valid-path-in-a-grid) |
@@ -97,6 +100,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0700-search-in-a-binary-search-tree](https://github.com/Merxjj/Data-Structures-and-Algorithm/tree/master/0700-search-in-a-binary-search-tree) |
 | [0701-insert-into-a-binary-search-tree](https://github.com/Merxjj/Data-Structures-and-Algorithm/tree/master/0701-insert-into-a-binary-search-tree) |
 | [0872-leaf-similar-trees](https://github.com/Merxjj/Data-Structures-and-Algorithm/tree/master/0872-leaf-similar-trees) |
+| [1161-maximum-level-sum-of-a-binary-tree](https://github.com/Merxjj/Data-Structures-and-Algorithm/tree/master/1161-maximum-level-sum-of-a-binary-tree) |
 | [1448-count-good-nodes-in-binary-tree](https://github.com/Merxjj/Data-Structures-and-Algorithm/tree/master/1448-count-good-nodes-in-binary-tree) |
 ## Array
 |  |
