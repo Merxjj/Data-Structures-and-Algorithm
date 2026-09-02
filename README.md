@@ -10,6 +10,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0100-same-tree](https://github.com/Merxjj/Data-Structures-and-Algorithm/tree/master/0100-same-tree) |
 | [0102-binary-tree-level-order-traversal](https://github.com/Merxjj/Data-Structures-and-Algorithm/tree/master/0102-binary-tree-level-order-traversal) |
 | [0104-maximum-depth-of-binary-tree](https://github.com/Merxjj/Data-Structures-and-Algorithm/tree/master/0104-maximum-depth-of-binary-tree) |
+| [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/Merxjj/Data-Structures-and-Algorithm/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
 | [0110-balanced-binary-tree](https://github.com/Merxjj/Data-Structures-and-Algorithm/tree/master/0110-balanced-binary-tree) |
 | [0111-minimum-depth-of-binary-tree](https://github.com/Merxjj/Data-Structures-and-Algorithm/tree/master/0111-minimum-depth-of-binary-tree) |
 | [0112-path-sum](https://github.com/Merxjj/Data-Structures-and-Algorithm/tree/master/0112-path-sum) |
@@ -84,6 +85,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0100-same-tree](https://github.com/Merxjj/Data-Structures-and-Algorithm/tree/master/0100-same-tree) |
 | [0102-binary-tree-level-order-traversal](https://github.com/Merxjj/Data-Structures-and-Algorithm/tree/master/0102-binary-tree-level-order-traversal) |
 | [0104-maximum-depth-of-binary-tree](https://github.com/Merxjj/Data-Structures-and-Algorithm/tree/master/0104-maximum-depth-of-binary-tree) |
+| [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/Merxjj/Data-Structures-and-Algorithm/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
 | [0110-balanced-binary-tree](https://github.com/Merxjj/Data-Structures-and-Algorithm/tree/master/0110-balanced-binary-tree) |
 | [0111-minimum-depth-of-binary-tree](https://github.com/Merxjj/Data-Structures-and-Algorithm/tree/master/0111-minimum-depth-of-binary-tree) |
 | [0112-path-sum](https://github.com/Merxjj/Data-Structures-and-Algorithm/tree/master/0112-path-sum) |
@@ -108,6 +110,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0027-remove-element](https://github.com/Merxjj/Data-Structures-and-Algorithm/tree/master/0027-remove-element) |
 | [0048-rotate-image](https://github.com/Merxjj/Data-Structures-and-Algorithm/tree/master/0048-rotate-image) |
 | [0053-maximum-subarray](https://github.com/Merxjj/Data-Structures-and-Algorithm/tree/master/0053-maximum-subarray) |
+| [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/Merxjj/Data-Structures-and-Algorithm/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/Merxjj/Data-Structures-and-Algorithm/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
 | [0150-evaluate-reverse-polish-notation](https://github.com/Merxjj/Data-Structures-and-Algorithm/tree/master/0150-evaluate-reverse-polish-notation) |
 | [0153-find-minimum-in-rotated-sorted-array](https://github.com/Merxjj/Data-Structures-and-Algorithm/tree/master/0153-find-minimum-in-rotated-sorted-array) |
@@ -199,6 +202,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0023-merge-k-sorted-lists](https://github.com/Merxjj/Data-Structures-and-Algorithm/tree/master/0023-merge-k-sorted-lists) |
 | [0053-maximum-subarray](https://github.com/Merxjj/Data-Structures-and-Algorithm/tree/master/0053-maximum-subarray) |
+| [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/Merxjj/Data-Structures-and-Algorithm/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
 | [0347-top-k-frequent-elements](https://github.com/Merxjj/Data-Structures-and-Algorithm/tree/master/0347-top-k-frequent-elements) |
 ## Heap (Priority Queue)
 |  |
@@ -234,6 +238,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Hash Table
 |  |
 | ------- |
+| [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/Merxjj/Data-Structures-and-Algorithm/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
 | [0347-top-k-frequent-elements](https://github.com/Merxjj/Data-Structures-and-Algorithm/tree/master/0347-top-k-frequent-elements) |
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/Merxjj/Data-Structures-and-Algorithm/tree/master/0653-two-sum-iv-input-is-a-bst) |
 | [1207-unique-number-of-occurrences](https://github.com/Merxjj/Data-Structures-and-Algorithm/tree/master/1207-unique-number-of-occurrences) |
