@@ -112,6 +112,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0027-remove-element](https://github.com/Merxjj/Data-Structures-and-Algorithm/tree/master/0027-remove-element) |
 | [0048-rotate-image](https://github.com/Merxjj/Data-Structures-and-Algorithm/tree/master/0048-rotate-image) |
 | [0053-maximum-subarray](https://github.com/Merxjj/Data-Structures-and-Algorithm/tree/master/0053-maximum-subarray) |
+| [0074-search-a-2d-matrix](https://github.com/Merxjj/Data-Structures-and-Algorithm/tree/master/0074-search-a-2d-matrix) |
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/Merxjj/Data-Structures-and-Algorithm/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/Merxjj/Data-Structures-and-Algorithm/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
 | [0150-evaluate-reverse-polish-notation](https://github.com/Merxjj/Data-Structures-and-Algorithm/tree/master/0150-evaluate-reverse-polish-notation) |
@@ -290,6 +291,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Binary Search
 |  |
 | ------- |
+| [0074-search-a-2d-matrix](https://github.com/Merxjj/Data-Structures-and-Algorithm/tree/master/0074-search-a-2d-matrix) |
 | [0153-find-minimum-in-rotated-sorted-array](https://github.com/Merxjj/Data-Structures-and-Algorithm/tree/master/0153-find-minimum-in-rotated-sorted-array) |
 | [0154-find-minimum-in-rotated-sorted-array-ii](https://github.com/Merxjj/Data-Structures-and-Algorithm/tree/master/0154-find-minimum-in-rotated-sorted-array-ii) |
 | [0222-count-complete-tree-nodes](https://github.com/Merxjj/Data-Structures-and-Algorithm/tree/master/0222-count-complete-tree-nodes) |
@@ -355,6 +357,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0048-rotate-image](https://github.com/Merxjj/Data-Structures-and-Algorithm/tree/master/0048-rotate-image) |
+| [0074-search-a-2d-matrix](https://github.com/Merxjj/Data-Structures-and-Algorithm/tree/master/0074-search-a-2d-matrix) |
 | [0994-rotting-oranges](https://github.com/Merxjj/Data-Structures-and-Algorithm/tree/master/0994-rotting-oranges) |
 | [1391-check-if-there-is-a-valid-path-in-a-grid](https://github.com/Merxjj/Data-Structures-and-Algorithm/tree/master/1391-check-if-there-is-a-valid-path-in-a-grid) |
 | [1559-detect-cycles-in-2d-grid](https://github.com/Merxjj/Data-Structures-and-Algorithm/tree/master/1559-detect-cycles-in-2d-grid) |
