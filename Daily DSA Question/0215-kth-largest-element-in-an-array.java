@@ -5,6 +5,7 @@ class Solution {
             pq.add(nums[i]);
             if(pq.size()>k)pq.remove();
         }
-        return pq.peek();
-    }
+    
+    return pq.peek();
+    } 
 }
