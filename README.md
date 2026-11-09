@@ -122,6 +122,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0154-find-minimum-in-rotated-sorted-array-ii](https://github.com/Merxjj/Data-Structures-and-Algorithm/tree/master/0154-find-minimum-in-rotated-sorted-array-ii) |
 | [0198-house-robber](https://github.com/Merxjj/Data-Structures-and-Algorithm/tree/master/0198-house-robber) |
 | [0215-kth-largest-element-in-an-array](https://github.com/Merxjj/Data-Structures-and-Algorithm/tree/master/0215-kth-largest-element-in-an-array) |
+| [0240-search-a-2d-matrix-ii](https://github.com/Merxjj/Data-Structures-and-Algorithm/tree/master/0240-search-a-2d-matrix-ii) |
 | [0287-find-the-duplicate-number](https://github.com/Merxjj/Data-Structures-and-Algorithm/tree/master/0287-find-the-duplicate-number) |
 | [0334-increasing-triplet-subsequence](https://github.com/Merxjj/Data-Structures-and-Algorithm/tree/master/0334-increasing-triplet-subsequence) |
 | [0347-top-k-frequent-elements](https://github.com/Merxjj/Data-Structures-and-Algorithm/tree/master/0347-top-k-frequent-elements) |
@@ -218,6 +219,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0053-maximum-subarray](https://github.com/Merxjj/Data-Structures-and-Algorithm/tree/master/0053-maximum-subarray) |
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/Merxjj/Data-Structures-and-Algorithm/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
 | [0215-kth-largest-element-in-an-array](https://github.com/Merxjj/Data-Structures-and-Algorithm/tree/master/0215-kth-largest-element-in-an-array) |
+| [0240-search-a-2d-matrix-ii](https://github.com/Merxjj/Data-Structures-and-Algorithm/tree/master/0240-search-a-2d-matrix-ii) |
 | [0347-top-k-frequent-elements](https://github.com/Merxjj/Data-Structures-and-Algorithm/tree/master/0347-top-k-frequent-elements) |
 | [0912-sort-an-array](https://github.com/Merxjj/Data-Structures-and-Algorithm/tree/master/0912-sort-an-array) |
 ## Heap (Priority Queue)
@@ -314,6 +316,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0153-find-minimum-in-rotated-sorted-array](https://github.com/Merxjj/Data-Structures-and-Algorithm/tree/master/0153-find-minimum-in-rotated-sorted-array) |
 | [0154-find-minimum-in-rotated-sorted-array-ii](https://github.com/Merxjj/Data-Structures-and-Algorithm/tree/master/0154-find-minimum-in-rotated-sorted-array-ii) |
 | [0222-count-complete-tree-nodes](https://github.com/Merxjj/Data-Structures-and-Algorithm/tree/master/0222-count-complete-tree-nodes) |
+| [0240-search-a-2d-matrix-ii](https://github.com/Merxjj/Data-Structures-and-Algorithm/tree/master/0240-search-a-2d-matrix-ii) |
 | [0287-find-the-duplicate-number](https://github.com/Merxjj/Data-Structures-and-Algorithm/tree/master/0287-find-the-duplicate-number) |
 | [0374-guess-number-higher-or-lower](https://github.com/Merxjj/Data-Structures-and-Algorithm/tree/master/0374-guess-number-higher-or-lower) |
 | [1004-max-consecutive-ones-iii](https://github.com/Merxjj/Data-Structures-and-Algorithm/tree/master/1004-max-consecutive-ones-iii) |
@@ -381,6 +384,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0048-rotate-image](https://github.com/Merxjj/Data-Structures-and-Algorithm/tree/master/0048-rotate-image) |
 | [0073-set-matrix-zeroes](https://github.com/Merxjj/Data-Structures-and-Algorithm/tree/master/0073-set-matrix-zeroes) |
 | [0074-search-a-2d-matrix](https://github.com/Merxjj/Data-Structures-and-Algorithm/tree/master/0074-search-a-2d-matrix) |
+| [0240-search-a-2d-matrix-ii](https://github.com/Merxjj/Data-Structures-and-Algorithm/tree/master/0240-search-a-2d-matrix-ii) |
 | [0994-rotting-oranges](https://github.com/Merxjj/Data-Structures-and-Algorithm/tree/master/0994-rotting-oranges) |
 | [1391-check-if-there-is-a-valid-path-in-a-grid](https://github.com/Merxjj/Data-Structures-and-Algorithm/tree/master/1391-check-if-there-is-a-valid-path-in-a-grid) |
 | [1559-detect-cycles-in-2d-grid](https://github.com/Merxjj/Data-Structures-and-Algorithm/tree/master/1559-detect-cycles-in-2d-grid) |
