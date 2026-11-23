@@ -117,6 +117,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0074-search-a-2d-matrix](https://github.com/Merxjj/Data-Structures-and-Algorithm/tree/master/0074-search-a-2d-matrix) |
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/Merxjj/Data-Structures-and-Algorithm/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/Merxjj/Data-Structures-and-Algorithm/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
+| [0136-single-number](https://github.com/Merxjj/Data-Structures-and-Algorithm/tree/master/0136-single-number) |
 | [0150-evaluate-reverse-polish-notation](https://github.com/Merxjj/Data-Structures-and-Algorithm/tree/master/0150-evaluate-reverse-polish-notation) |
 | [0153-find-minimum-in-rotated-sorted-array](https://github.com/Merxjj/Data-Structures-and-Algorithm/tree/master/0153-find-minimum-in-rotated-sorted-array) |
 | [0154-find-minimum-in-rotated-sorted-array-ii](https://github.com/Merxjj/Data-Structures-and-Algorithm/tree/master/0154-find-minimum-in-rotated-sorted-array-ii) |
@@ -364,6 +365,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Bit Manipulation
 |  |
 | ------- |
+| [0136-single-number](https://github.com/Merxjj/Data-Structures-and-Algorithm/tree/master/0136-single-number) |
 | [0222-count-complete-tree-nodes](https://github.com/Merxjj/Data-Structures-and-Algorithm/tree/master/0222-count-complete-tree-nodes) |
 | [0287-find-the-duplicate-number](https://github.com/Merxjj/Data-Structures-and-Algorithm/tree/master/0287-find-the-duplicate-number) |
 ## Union-Find
