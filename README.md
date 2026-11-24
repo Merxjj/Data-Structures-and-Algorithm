@@ -114,6 +114,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0031-next-permutation](https://github.com/Merxjj/Data-Structures-and-Algorithm/tree/master/0031-next-permutation) |
 | [0048-rotate-image](https://github.com/Merxjj/Data-Structures-and-Algorithm/tree/master/0048-rotate-image) |
 | [0053-maximum-subarray](https://github.com/Merxjj/Data-Structures-and-Algorithm/tree/master/0053-maximum-subarray) |
+| [0054-spiral-matrix](https://github.com/Merxjj/Data-Structures-and-Algorithm/tree/master/0054-spiral-matrix) |
 | [0056-merge-intervals](https://github.com/Merxjj/Data-Structures-and-Algorithm/tree/master/0056-merge-intervals) |
 | [0073-set-matrix-zeroes](https://github.com/Merxjj/Data-Structures-and-Algorithm/tree/master/0073-set-matrix-zeroes) |
 | [0074-search-a-2d-matrix](https://github.com/Merxjj/Data-Structures-and-Algorithm/tree/master/0074-search-a-2d-matrix) |
@@ -390,6 +391,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0048-rotate-image](https://github.com/Merxjj/Data-Structures-and-Algorithm/tree/master/0048-rotate-image) |
+| [0054-spiral-matrix](https://github.com/Merxjj/Data-Structures-and-Algorithm/tree/master/0054-spiral-matrix) |
 | [0073-set-matrix-zeroes](https://github.com/Merxjj/Data-Structures-and-Algorithm/tree/master/0073-set-matrix-zeroes) |
 | [0074-search-a-2d-matrix](https://github.com/Merxjj/Data-Structures-and-Algorithm/tree/master/0074-search-a-2d-matrix) |
 | [0240-search-a-2d-matrix-ii](https://github.com/Merxjj/Data-Structures-and-Algorithm/tree/master/0240-search-a-2d-matrix-ii) |
@@ -434,6 +436,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Simulation
 |  |
 | ------- |
+| [0054-spiral-matrix](https://github.com/Merxjj/Data-Structures-and-Algorithm/tree/master/0054-spiral-matrix) |
 | [0735-asteroid-collision](https://github.com/Merxjj/Data-Structures-and-Algorithm/tree/master/0735-asteroid-collision) |
 | [1914-cyclically-rotating-a-grid](https://github.com/Merxjj/Data-Structures-and-Algorithm/tree/master/1914-cyclically-rotating-a-grid) |
 | [2352-equal-row-and-column-pairs](https://github.com/Merxjj/Data-Structures-and-Algorithm/tree/master/2352-equal-row-and-column-pairs) |
