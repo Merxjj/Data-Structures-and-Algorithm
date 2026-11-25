@@ -2,13 +2,13 @@ class Solution {
     public int compress(char[] chars) {
         char curr ;
         int l = 0;
-        int i = 0;
-        while(i<chars.length){   // Very important 
+        int r = 0;
         int count = 0;
-            curr = chars[i];
-            while(i<chars.length && curr == chars[i]){
-                count +=1;
-                i++;
+        while(r <chars.length ){
+            curr = chars[r];
+            while(r < chars.length && curr == chars[r]){
+                r++;
+                count++;
             }
             chars[l++] = curr;
             if(count > 1){
@@ -17,8 +17,8 @@ class Solution {
                     chars[l++] = c;
                 }
             }
+            count = 0;
         }
         return l;
-
     }
 }
